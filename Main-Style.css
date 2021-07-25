@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+.BasicTheam{
+
+--Dark-background-color-IntroAndMails: hsl(217, 28%, 15%);
+--Dark-background-color-main: hsl(218, 28%, 13%);
+--Dark-background-color-footer: hsl(216, 53%, 9%);
+/* - Dark Blue (testimonials background): hsl(219, 30%, 18%) */
+--White-natural: hsl(0, 0%, 100%);
+
+--body-font-size:14px;
+--font-family:'Raleway', sans-serif;
+}
+
+/* Body--------------------------------------------------------------- */
+
+body { 
+    background-color: var(--Dark-background-color-main);
+    color: var(--White-natural);
+    justify-content: center;
+    text-align: center;    
+    font-family: var(--font-family);
+
+}   
+
+/* Header--------------------------------------------------------------- */
+
+#header-container{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#Fylo-icon{
+    position: absolute;
+    margin-left: 50px;
+}
+
+#header-btn-group{
+    position: absolute;
+    display: flex;
+    margin-inline-start: 1100px;
+}
+
+#Features-btn,#Team-btn,#Sign-In-btn{
+    margin-right: 20px;
+    border: 0ch;
+    color: var(--White-natural);
+    background-color:var(--Dark-background-color-main);
+}
+
+#features-section{
+    display: grid;
+}
+ 
+
+

@@ -1,0 +1,206 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+.BasicTheam{
+--Dark-background-color-IntroAndMails: hsl(217, 28%, 15%);
+--Dark-background-color-main: hsl(218, 28%, 13%);
+--Dark-background-color-footer: hsl(216, 53%, 9%);
+/* - Dark Blue (testimonials background): hsl(219, 30%, 18%) */
+--White-natural: hsl(0, 0%, 100%);
+--btns-Reg-color-Blue: hsl(198, 60%, 50%);
+--btns-Hover-color-Blue:hsl(176, 68%, 64%);
+
+
+--body-font-size:14px;
+--title-font-size:16px;
+
+--font-family:'Raleway', sans-serif;
+}
+
+/* General */
+body{
+    background-color:var(--Dark-background-color-main);
+    color:var(--White-natural);
+    font-family: var(--font-family);
+    font-size: var(--body-font-size);
+}
+a{
+    color: white;
+}
+
+/* Header */
+#header-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 50px;
+        margin-inline:100px ;
+}
+#Features-btn,#Team-btn,#Sign-In-btn{
+background-color: var(--Dark-background-color-main);
+color: var(--White-natural);
+border: 0;
+}
+.flexBox-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.flexBox-item{
+    width: 60%;
+    margin: 10px;
+    height: auto;
+    justify-content: center;
+    text-align: center;  
+    margin-bottom: 60px;  
+}
+
+.Intro-btn{
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: var(--btns-Reg-color-Blue);
+    color: var(--White-natural);
+
+}
+.flexBox-item-features{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.grid-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.flexBox-item-description{
+display: flex;
+flex-direction: row;
+width: 80%;
+justify-content: flex-end;
+
+}
+#description{
+display: flex;
+flex-direction: column;
+margin-top: 120px;
+}
+.flexBox-item-team{
+    display: flex;
+    flex-direction: row;
+}
+.flexBox-team-container{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+}
+.flexBox-team-item{
+    margin: 10px;
+}
+.Icon{
+    position: relative;
+    height: 30px;
+    top: -20px;
+    left: 20px;
+}
+/* Team-------------------- */
+.team-info{
+display: grid;
+grid-template-columns: 30px 150px;
+grid-template-rows: 20px 10px;
+justify-content: left;
+}
+.prof{
+    height: 50px;
+    border-radius: 30px;
+    grid-column: 1;
+}
+.team-name{
+    font-size: 12px;
+    grid-column: 2;
+
+}
+.team-position{
+    font-size: 9px;
+    grid-column: 2;
+
+}
+.team-review{
+    text-align: left;
+}
+/* SignIn-------------------- */
+.flexBox-item-SignIn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.SignIn-Input{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.SignIn-btn{
+    background-color: var(--btns-Reg-color-Blue);
+    color : var(--White-natural);
+ }
+    
+.SignIn-btn:hover,.Intro-btn:hover,.social:hover{
+    background-color: var(--btns-Hover-color-Blue);
+}
+
+.SignIn-email,.SignIn-btn{
+    border-radius: 15px;
+    margin-left:30px;
+    height: 40px;
+}
+.SignIn-email{
+    width:400px;
+}
+.SignIn-des{
+    width: 80%;
+}
+/* Footer-------------------- */
+#Fylo-icon-footer{
+    margin-bottom: 20px;
+}
+.footer-contact-grid{
+display: grid;
+grid-template-columns: 1.5fr 1fr 1fr 1fr;
+grid-template-rows: 30px 30px;
+
+}
+.col2{
+    grid-column: 2;
+}
+.email{
+grid-row: 2;
+
+}
+.footer-links-grid{
+    grid-column: 3;
+    grid-row: 1;
+
+    display: flex;
+    flex-direction: row;
+}
+.div3{
+    display: flex;
+    flex-direction: column;
+    padding-left:10px;
+
+}
+.div4{
+    display: flex;
+    flex-direction: column;
+    padding-left:10px;
+}
+.links{
+    padding:5px;
+}
